@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Quicksand:wght@500&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+/* remove animation for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html{
+    font-family: 'Fira Sans', sans-serif;
+}
+.menu{
+    text-align: center;
+    background: rgb(165, 94, 12);
+    color: white;
+    width: 100%;
+}
+.menu a{
+     text-decoration: none;
+     color: white;
+     /* cách nhau ra */
+     margin: 0 50px;
+     /* tăng chiều dài đoạn chữ */
+     line-height: 50px;
+     font-size: 30px;
+}
+.menu:hover{
+    color: rgb(3, 3, 253);
+    transition: all .5s linear;
+}
+.sanpham h3{
+    text-align: center;
+    font-size: 40px;
+
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.sanpham .ten{
+    font-size: 20px;
+    font-variant: small-caps;
+    color: blue;
+    }
+    .sanpham .gia{
+        color: red;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .sanpham .del{
+        color: gray;
+    }
+    .news{
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+        border: 3px solid purple;
+    }
+    .sign-up{
+        width: 100%;
+        margin:  0 auto;
+        font-size: 30px;
+        border: 3px solid purple;
+        text-align: center;
+        border-radius: 10px;
+        background: rgb(165, 94, 12);
+        padding: 30% 0%;
+       margin-top: 10%;
+        
+    }
+
+    .sign-up button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        width: 100%;
+        background: rgb(165, 94, 12);
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block ;
+    }
+    footer .footer-item{ 
+        width: 50%;
+        display: inline-block ;
+        
+    }
+    footer.link a{
+        display: block;
+        text-decoration: none;
+        color: rgb(165, 94, 12);
+
+    }
+    .sanpham img {
+      width: 100%;
+  }
+  .icon {
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sanpham h3{
+      font-size: 31px;
+    }
+    .icon{
+      display: block;
+      margin: 30px 0 30px 50%;
+     
+    }
+    .icon::before{
+       font-size: 30px;
+    }
+    .menu{
+      display: none;
+    }
+  }
+
+ 
+   
+
+

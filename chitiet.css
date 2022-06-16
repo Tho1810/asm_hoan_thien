@@ -1,0 +1,94 @@
+.tien{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.chon form{
+    font-size: 20px;
+    padding: 3px;
+    background-color: rgb(48, 162, 48);
+    max-width: 48px;
+}
+.muahang {
+    text-align: center;
+    background-color: rgb(235, 239, 235);
+    color: rgb(56, 41, 41);
+    font-size: 30px;
+    text-shadow: red;
+    border: 3px solid rgb(48, 162, 48);
+    
+}
+
+.hinh{
+    padding-top: 0%;
+    width: 100%;
+    padding: 20%;
+        font-size: 40%;
+        max-width:100%;
+        background-color: rgb(48, 162, 48);
+      }
+      .tenao h1{
+          text-align: center;
+          font-size: 40px;
+      }
+      .kichco{
+          text-shadow: black;
+          color: rgb(8, 8, 8);
+          font-size: 30px;
+          border: 3px solid rgb(48, 162, 48);
+          
+          
+      }
+       .kichco h2{
+          background-color:white;
+          padding:0%;
+          margin: 4%;
+          width: 50px;
+          background-color: rgb(139, 139, 183);
+          border: 3px solid rgb(48, 162, 48);
+      }
+      .kichco a{
+        background-color:white;
+        padding:0%;
+        margin: 4%;
+        width: 50%;
+        background-color: rgb(244, 244, 248);
+        border: 3px solid rgb(48, 162, 48);
+    }
+      .menu{
+        text-align: center;
+        background: rgb(165, 94, 12);
+        color: white;
+        
+        
+    }
+    .menu a{
+         text-decoration: none;
+         color: white;
+         /* cách nhau ra */
+         margin: 0 50px;
+         /* tăng chiều dài đoạn chữ */
+         line-height: 50px;
+         font-size: 30px;
+         
+    }
+    .menu:hover{
+        color: rgb(3, 3, 253);
+        transition: all .5s linear;
+    }
+
+
+    .row1 {
+        display: flex;
+    }
+    
+    .col-sm-12{
+        margin-left: 70px;
+    }
+    .shopeefood{
+        color: red;
+    }
+    
+    
+   
+   
